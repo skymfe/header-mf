@@ -6,6 +6,12 @@
   height: 6rem
 }
 
+.leftLinks {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .navLink {
   text-decoration: none;
   color: #fff;

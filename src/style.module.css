@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #485dff;
+  height: 6rem
+}
+
+.navLink {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.navLink:hover {
+  background-color: #2d46fe;
+}
+
+.profileLink {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+

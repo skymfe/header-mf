@@ -5,6 +5,7 @@ import { links } from "./utils";
 
 export const Header = () => {
   const location = useLocation();
+
   return (
     <header className={styles.header}>
       <div className={styles.leftLinks}>
@@ -21,7 +22,12 @@ export const Header = () => {
         ))}
       </div>
 
-      <Link to="/profile" className={classNames(styles.navLink, styles.profileLink)}>
+      <Link
+        to="/profile"
+        className={classNames(styles.navLink, {
+          [styles.active]: location.pathname === "/profile",
+        })}
+      >
         Profile
       </Link>
     </header>

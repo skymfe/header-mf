@@ -1,0 +1,14 @@
+[
+  {
+    "label": "Flight Booking",
+    "href": "/flights",
+    "position": "LEFT",
+    "order": 1
+  },
+  {
+    "label": "Profile",
+    "href": "/profile",
+    "position": "RIGHT",
+    "order": 1
+  }
+]
